@@ -2,7 +2,7 @@ html {
     font-family:'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 15px;
 }
 * {
     margin: 0;
@@ -14,7 +14,7 @@ button {
     box-sizing: border-box;
 }
 .container {
-    max-width: 1920px;
+    max-width: 1400px;
     width: 100%;
     margin: auto;
 }
@@ -26,21 +26,20 @@ button {
 }
 header {
     padding-top: 8px;
-    padding-bottom: 8px;
+
     vertical-align: middle;
 }
 .navigation__header {
     display: flex;
     justify-content: space-between;
-    max-width: 1798px;
+    max-width: 1400px;
     width: 100%;
+    padding-bottom: 15px;
 }
 .header__logo__link {
     padding: 0;
-    height: 28px;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 61px;
 }
 .header__logo__img {
     margin: auto;
@@ -50,10 +49,21 @@ header {
     font-weight: normal;
     text-decoration: none;
     color: #000;
+    margin: auto;
+}
+
+.icons {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin: auto;
 }
 
 .contactus__button {
-    padding: 13px 9px;
+  
+    margin: auto;
+    width: 180px;
+    height: 49px;
     border-radius: 30px;
     outline: none;
     border: none;
@@ -61,12 +71,57 @@ header {
     font-family:'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 15px;
     background: #457fb5;
 }
+
+.zvon {
+      padding-bottom: 15px;
+}
+
 .button__hover:hover{
     background-color: #302C34;
     color: #fff;
     transition: 500ms;
     border-radius: 30px;
+}
+
+.container__promo {
+    background-image: url(/img/image\ 1.png);
+    width: 1920px;
+    width: 100%;
+    height: 879px;
+}
+
+.promo__text {
+    padding-top: 227px;
+    padding-left: 265px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 295px;
+}
+.promo__title {
+    margin: auto;
+    font-size: 48px;
+    line-height: 105%;
+    color: #fff;
+}
+.promo__desc {
+    padding-top: 10px;
+    font-size: 24px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.price {
+    color: #fff;
+}
+
+.two {
+    margin-top: 56px;
+    margin-left: 265px;
+}
+
+.svg {
+    text-align: right;
 }
